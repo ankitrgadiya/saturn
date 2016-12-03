@@ -51,7 +51,7 @@ a{
     transition: all .2s ease-in;
 }
 a:hover{
-	color: #7DDEFF;
+	text-decoration: underline;
 }
 .arrow{
 	height: 28px;
@@ -130,6 +130,76 @@ hr{
 	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 }
+.feature-container{
+	background-color: white;
+	margin: 10px;
+	box-shadow: 1px 5px 20px #888888;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	float: right;
+}
+.feature-h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 35px;
+	font-weight: 100%;
+}
+ul{
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: justify;
+	margin-right: 30px;
+	margin-left: 20px;
+	list-style: none;
+	padding-left: 5px;
+}
+.list-left{
+	float: left;
+}
+.list-right{
+	float: right;
+}
+li:before {    
+    font-family: 'FontAwesome';
+    content: '\f10c';
+    margin: 0 5px 0 -15px;
+}
+footer{
+	height: 100px;
+	float: left;
+	width: 100%;
+	margin: 0px 0px -10px 0px;
+
+}   
+p.social-links{
+	padding-left: 10px;
+	font-size: 20px;
+	text-align: center;
+}
+a.fa{
+	color: grey;
+}
+
+p.copyright{
+	margin-left: 10px;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	font-size: 15px;
+	float: left;
+}
+p.designer{
+	float: right;
+	margin-right: 10px;
+	font-family: 'Lato', sans-serif;
+	color: grey;
+	font-size: 15px;
+}
+a.designer{
+	color: grey;
+}
+a.designer:hover{
+	text-decoration: underline;
+}
 @media (max-width: 1355px){
 	.portfolio-card{
 		width: 450px;
@@ -155,3 +225,4 @@ hr{
 		margin: 10px auto;
 	}
 }
+
