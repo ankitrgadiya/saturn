@@ -22,7 +22,7 @@ h2{
 p{
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-	text-align: justify;
+	text-align: center;
 	margin-right: 60px;
 	margin-left: 60px;
 }
@@ -112,6 +112,7 @@ header{
 	margin-bottom: -10px;
 }
 
+
 /* Responsive Grid Design */
 /*  SECTIONS  */
 .section {
@@ -144,4 +145,15 @@ header{
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 	.portfolio-heading{	width: 100%;}
+}
+/*  GRID OF FOUR  */
+.span_4_of_4 {width: 100%;}
+.span_3_of_4 {width: 74.6%;}
+.span_2_of_4 {width: 49.2%;}
+.span_1_of_4 {width: 23.8%;}
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+	.span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 }
