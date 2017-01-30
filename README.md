@@ -2,11 +2,10 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/gpl/gpl.svg?v=102)](https://github.com/ellerbrock/open-source-badge/) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)<br />
 
-![Screenshot](https://cloud.githubusercontent.com/assets/18071765/22265121/9f9711f6-e2a0-11e6-83a9-877b5886c0ac.jpeg)
+![Screenshot](https://cloud.githubusercontent.com/assets/18071765/22430026/b966ed4a-e732-11e6-98fd-ddddcb457eae.jpeg)
+A multi-purpose responsive HTML template.
 
-A multi-purpose responsive HTML template. 
-
-Anybody can use this template for Free. 
+Anybody can use this template for Free.
 
 ### Credits:           
 * [Font Awesome](http://fontawesome.io/)
