@@ -1,12 +1,13 @@
 /* General */
 body {
-	  font-family: 'Open Sans', sans-serif;
-		background: #eeeeee;
+	font-family: 'Open Sans', sans-serif;
+	background: #eeeeee;
+	margin: 0;
 }
 /* Header */
 .jumbotron {
 	height: 100vh;
-	background: url("../images/head.jpg") center;
+	background: url("../images/head.jpg") center fixed;
 	background-size: cover;
 	color: #eeeeee;
 }
@@ -57,6 +58,31 @@ body {
 	background: #fff;
 	width: 100%;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+/* Special Section */
+.special {
+	background: url("../images/head.jpg") center fixed;
+	background-size: cover;
+	height: 50vh;
+	margin-top: 40px;
+}
+button.special-button {
+	margin-top: 100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #212121;
+	background: white;
+	opacity: 0.5;
+	border: 0;
+	border-radius: 5px;
+	padding: 8px 15px 8px 15px;
+}
+button.special-button:hover {
+	color: #0091ea;
+}
+button i {
+	margin-left: 10px;
 }
 
 /* Footer */
