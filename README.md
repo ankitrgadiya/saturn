@@ -16,4 +16,4 @@ Anybody can use this template for Free.
 GNU GENERAL PUBLIC LICENSE
 
 ### Developed By:
-[Ankit R Gadiya](http://ankitrgadiya.me)
+[Ankit R Gadiya](https://ankitrgadiya.in)
