@@ -4,6 +4,22 @@ body {
 	background: #eeeeee;
 	margin: 0;
 }
+a {
+	color:  #009688;
+	font-weight: bold;
+}
+a:hover {
+	color: #888888;
+	text-decoration: none;
+}
+/* Logo */
+.logo {
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin: 10px;
+}
+
 /* Header */
 .jumbotron {
 	height: 100vh;
@@ -16,13 +32,7 @@ body {
 	text-align: center;
 	margin-top: 30vh;
 }
-.jumbotron img {
-	float: left;
-	width: 60px;
-	position: absolute;
-	left: 0;
-	top: 0;
-}
+
 .jumbotron p {
 	margin-top: 60px;
 	text-align: center;
@@ -86,13 +96,13 @@ button i {
 }
 
 /* Footer */
-.footer {
+footer {
 	background: #212121;
 	height: 30vh;
 	margin-top: 50px;
 	color: #eeeeee;
 }
-.footer ul{
+.social ul{
 	clear: left;
 	float: left;
 	list-style-type: none;
@@ -103,7 +113,7 @@ button i {
 	text-align: center;
 	margin-top: 70px;
 }
-.footer ul li {
+.social ul li {
 	display: block;
 	float: left;
 	list-style: none;
@@ -114,6 +124,10 @@ button i {
 	right: 50%;
 	padding: 10px;
 }
-.footer ul li i {
+.social ul li i {
 	font-size: 25px;
+}
+.copyright {
+	text-align: center;
+	font-size: 18px;
 }
